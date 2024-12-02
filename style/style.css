@@ -1,0 +1,159 @@
+body {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(190,11,50,255);
+    margin: 0;
+    padding: 0;
+    color: rgba(190,11,50,255);
+}
+
+.blue-text {
+    background-color: white;
+}
+
+.darkblue-bg {
+    background-color: rgba(0,39,104,255);
+    color: white;
+}
+
+.height-30 {
+    min-height: 30vh;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.star {
+    display:block;
+    margin:0 auto;
+    width:35vw;
+    height: auto;
+}
+
+.only-center {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+
+h1 {
+    font-size: 58px;
+    margin: 10px; 
+    cursor: default;
+}
+
+.profile-photo {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    min-width: 40vw;
+    max-width: 99vw;
+    height: auto;
+}
+
+.white-bg-body {
+    color: rgba(0,39,104,255);
+    width: 70vw;
+    background-color: white;
+    font-size: 35px;
+    padding: 5%;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+/* Стили для кнопок аккордеона */
+.accordion-button {
+    width: 100%;
+    background-color: rgba(0,39,104,255);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Стили для аккордеона */
+.accordion-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 39, 104, 0.1); /* Светлый фон для разделения */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.accordion-button {
+    width: 100%;
+    background-color: rgba(0,39,104,255);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: rgba(0, 50, 130, 255);
+}
+
+.accordion-content {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgba(0,39,104,255);
+    line-height: 1.6;
+}
+
+.accordion-content p {
+    margin: 0;
+}
+
+.accordion-button.active + .accordion-content {
+    display: block;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+    outline: none;
+}
+
+@media (max-width: 900px) {
+    .white-bg-body {
+        width: auto;
+        margin: 0;
+    }
+}
