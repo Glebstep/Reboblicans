@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: "Bebas Neue", serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(190, 11, 50, 255);
+}
+
+/* Header Section */
+.header-section {
+    background-color: rgba(0, 39, 104, 255);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Biography Title */
+.biography-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.biography-title h2 {
+    font-size: 58px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Biography Section */
+.biography-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: rgba(190, 11, 50, 255);
+}
+
+.biography-content {
+    background-color: white;
+    color: rgba(0, 39, 104, 255);
+    font-size: 28px;
+    line-height: 1.8;
+    padding: 40px;
+    max-width: 70%;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.biography-content h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: rgba(0, 39, 104, 255);
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    padding: 1%;
+    background-color: rgba(0, 39, 104, 255);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    margin: 5px 0;
+}

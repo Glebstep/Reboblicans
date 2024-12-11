@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: "Bebas Neue", serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(190, 11, 50, 255);
+}
+
+/* Header Section */
+.header-section {
+    background-color: rgba(0, 39, 104, 255);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 72px; /* Увеличенный шрифт */
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Achievements Title */
+.achievements-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.achievements-title h2 {
+    font-size: 75px; /* Заголовок "Achievements" среднего размера */
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Achievements Section */
+.achievements-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%; /* Больше отступов */
+    background-color: rgba(190, 11, 50, 255);
+}
+
+.achievements-content {
+    background-color: white; /* Белый фон */
+    color: rgba(0, 39, 104, 255); /* Синий текст */
+    font-size: 45px; /* Более читаемый шрифт */
+    line-height: 1.8; /* Межстрочное расстояние */
+    padding: 40px;
+    max-width: 70%; /* Увеличенная ширина для текста */
+    text-align: justify; /* Выравнивание текста по ширине */
+    border-radius: 15px; /* Закругленные углы */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Тень для выделения блока */
+}
+
+/* Заголовки внутри текста */
+.achievements-content h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 55px; /* Размер заголовков внутри текста */
+    color: rgba(0, 39, 104, 255);
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px; /* Размер шрифта в футере */
+    padding: 1%;
+    background-color: rgba(0, 39, 104, 255);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    margin: 5px 0;
+}

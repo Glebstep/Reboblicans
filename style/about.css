@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: "Bebas Neue", serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(190, 11, 50, 255);
+}
+
+/* Header Section */
+.header-section {
+    background-color: rgba(0, 39, 104, 255);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* About Us Title */
+.about-us-title {
+    text-align: center;
+    margin-top: 76px;
+    margin-bottom: 20px;
+}
+
+.about-us-title h2 {
+    font-size: 85px;
+    color: #faf9f7;
+    text-transform: uppercase;
+}
+
+/* About Us Section */
+.about-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: rgba(190, 11, 50, 255);
+}
+
+.about-us-content {
+    background-color: white;
+    color: rgba(0, 39, 104, 255);
+    font-size: 52px;
+    line-height: 1.8;
+    padding: 40px;
+    max-width: 60%;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.about-us-content h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 75px;
+    color: rgba(0, 39, 104, 255);
+}
+
+.about-us-content ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.about-us-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+    outline: none;
+}
+
+.blue-text {
+    background-color: white;
+}
+
+.darkblue-bg {
+    background-color: rgba(0,39,104,255);
+    color: white;
+}

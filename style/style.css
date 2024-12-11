@@ -46,7 +46,7 @@ body {
 }
 
 h1 {
-    font-size: 58px;
+    font-size: 100px;
     margin: 10px; 
     cursor: default;
 }
@@ -55,8 +55,8 @@ h1 {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
-    min-width: 40vw;
-    max-width: 99vw;
+    min-width: 30vw;
+    max-width: 12vw;
     height: auto;
 }
 
@@ -64,7 +64,7 @@ h1 {
     color: rgba(0,39,104,255);
     width: 70vw;
     background-color: white;
-    font-size: 35px;
+    font-size: 55px;
     padding: 5%;
     margin: 10px;
     flex-direction: column;
@@ -105,7 +105,7 @@ h1 {
     color: white;
     cursor: pointer;
     padding: 15px;
-    font-size: 20px;
+    font-size: 55px;
     border: none;
     text-align: left;
     outline: none;
@@ -124,9 +124,9 @@ h1 {
     padding: 15px;
     border-radius: 5px;
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 45px;
     color: rgba(0,39,104,255);
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .accordion-content p {
@@ -149,6 +149,14 @@ a {
     text-decoration: none; 
     color: inherit;
     outline: none;
+}
+
+.video-description {
+    font-size: 45px; /* Увеличенный размер шрифта */
+    color: white; /* Белый цвет текста */
+    text-align: center; /* Центровка текста */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    font-weight: bold; /* Более жирный текст для акцента */
 }
 
 @media (max-width: 900px) {
