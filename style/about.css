@@ -20,7 +20,7 @@ body {
 /* About Us Title */
 .about-us-title {
     text-align: center;
-    margin-top: 76px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -42,25 +42,27 @@ body {
 .about-us-content {
     background-color: white;
     color: rgba(0, 39, 104, 255);
-    font-size: 52px;
+    font-size: 32px;
     line-height: 1.8;
     padding: 40px;
-    max-width: 60%;
+    max-width: 70%;
     text-align: justify;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-us-content h3 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 15px;
-    font-size: 75px;
+    font-size: 45px;
     color: rgba(0, 39, 104, 255);
 }
 
 .about-us-content ul {
     list-style-type: disc;
     padding-left: 40px;
+    margin-top: 15px;
 }
 
 .about-us-content ul li {
@@ -71,8 +73,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 35px;
-    padding: 1%;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(0, 39, 104, 255);
+    color: white;
 }
 
 a {
@@ -81,11 +85,33 @@ a {
     outline: none;
 }
 
-.blue-text {
-    background-color: white;
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us-title h2 {
+        font-size: 60px;
+    }
+
+    .about-us-content {
+        font-size: 24px;
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .about-us-content h3 {
+        font-size: 35px;
+    }
 }
 
-.darkblue-bg {
-    background-color: rgba(0,39,104,255);
-    color: white;
+@media (max-width: 480px) {
+    .about-us-title h2 {
+        font-size: 40px;
+    }
+
+    .about-us-content {
+        font-size: 20px;
+    }
+
+    .about-us-content h3 {
+        font-size: 28px;
+    }
 }
