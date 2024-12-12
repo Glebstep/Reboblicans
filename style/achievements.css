@@ -12,21 +12,20 @@ body {
     color: white;
     text-align: center;
     padding: 30px 0;
-    font-size: 72px; /* Увеличенный шрифт */
+    font-size: 72px;
     font-weight: bold;
-    margin: 0;
 }
 
 /* Achievements Title */
 .achievements-title {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .achievements-title h2 {
-    font-size: 75px; /* Заголовок "Achievements" среднего размера */
-    color: white;
+    font-size: 65px;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -35,29 +34,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 10%; /* Больше отступов */
-    background-color: rgba(190, 11, 50, 255);
+    padding: 50px 10%;
 }
 
 .achievements-content {
-    background-color: white; /* Белый фон */
-    color: rgba(0, 39, 104, 255); /* Синий текст */
-    font-size: 45px; /* Более читаемый шрифт */
-    line-height: 1.8; /* Межстрочное расстояние */
+    background-color: white;
+    color: rgba(0, 39, 104, 255);
+    font-size: 40px;
+    line-height: 1.8;
     padding: 40px;
-    max-width: 70%; /* Увеличенная ширина для текста */
-    text-align: justify; /* Выравнивание текста по ширине */
-    border-radius: 15px; /* Закругленные углы */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Тень для выделения блока */
+    max-width: 75%;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Заголовки внутри текста */
 .achievements-content h3 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 15px;
-    font-size: 55px; /* Размер заголовков внутри текста */
-    color: rgba(0, 39, 104, 255);
+    font-size: 48px;
 }
 
 /* Footer */
@@ -65,8 +61,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 35px; /* Размер шрифта в футере */
-    padding: 1%;
+    font-size: 28px;
+    padding: 20px;
     background-color: rgba(0, 39, 104, 255);
     color: white;
 }
@@ -74,6 +70,21 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-    outline: none;
     margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .achievements-title h2 {
+        font-size: 50px;
+    }
+
+    .achievements-content {
+        font-size: 30px;
+        max-width: 90%;
+    }
+
+    .achievements-content h3 {
+        font-size: 35px;
+    }
 }
