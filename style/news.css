@@ -22,53 +22,55 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 10%;
+    padding: 40px 5%; /* Уменьшен padding для мобильных устройств */
 }
 
+/* News Article */
 .news-article {
     background-color: rgba(240, 240, 240, 1); /* Светло-серый фон */
     border: 2px solid rgba(0, 39, 104, 255); /* Синяя рамка */
-    border-radius: 30px; /* Увеличено на 15% */
-    padding: 100px; /* Увеличено на 15% */
-    margin-bottom: 170px; /* Увеличено на 15% */
-    max-width: 1500px; /* Увеличено на 15% */
-    box-shadow: 0 0 11.5px rgba(0, 0, 0, 0.1); /* Увеличено на 15% */
+    border-radius: 30px;
+    padding: 50px; /* Уменьшено для мобильных */
+    margin-bottom: 50px; /* Уменьшено для лучшего восприятия */
+    max-width: 1000px;
     text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Side-by-Side Images */
 .news-images {
     display: flex;
-    justify-content: center;
-    gap: 20px; /* Расстояние между картинками */
+    justify-content: space-around;
+    gap: 20px;
     margin-bottom: 20px;
+    flex-wrap: wrap; /* Обеспечивает перенос картинок на мобильных */
 }
 
 .side-by-side-image {
-    width: 45%; /* Оставлено без изменений */
+    width: 45%;
     height: auto;
-    border-radius: 10px; /* Оставлено без изменений */
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Single Image */
 .news-image {
-    width: 100%; /* Оставлено без изменений */
+    width: 100%;
     height: auto;
-    border-radius: 10px; /* Оставлено без изменений */
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
 /* Text Styling */
 .news-caption {
-    font-size: 45px; /* Оставлено без изменений */
+    font-size: 35px; /* Уменьшен для мобильных */
     color: rgba(0, 39, 104, 255);
     margin-bottom: 20px;
 }
 
 .news-text {
-    font-size: 45px; /* Оставлено без изменений */
+    font-size: 35px; /* Уменьшен для мобильных */
     color: rgba(0, 39, 104, 255);
     margin-bottom: 20px;
 }
@@ -76,16 +78,16 @@ body {
 /* Quote Block */
 .quote-block {
     background-color: rgba(255, 255, 255, 1); /* Белый фон */
-    border-left: 6px solid rgba(0, 39, 104, 255); /* Оставлено без изменений */
-    padding: 20px; /* Оставлено без изменений */
-    margin: 23px auto; /* Увеличено на 15% */
-    max-width: 920px; /* Увеличено на 15% */
+    border-left: 6px solid rgba(0, 39, 104, 255);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Уменьшено для мобильных */
     font-style: italic;
-    font-size: 35px; /* Оставлено без изменений */
+    font-size: 28px; /* Уменьшен для мобильных */
     color: #333;
     line-height: 1.6;
-    border-radius: 11.5px; /* Увеличено на 15% */
-    box-shadow: 0 0 11.5px rgba(0, 0, 0, 0.1); /* Увеличено на 15% */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
@@ -93,7 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 55px;
+    font-size: 35px;
     padding: 20px;
     background-color: rgba(0, 39, 104, 255);
     color: white;
@@ -104,4 +106,28 @@ a {
     color: inherit;
     outline: none;
     margin: 5px 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .news-article {
+        padding: 30px;
+    }
+
+    .news-caption, .news-text {
+        font-size: 28px; /* Ещё меньше для узких экранов */
+    }
+
+    .quote-block {
+        font-size: 22px;
+    }
+
+    .side-by-side-image {
+        width: 90%; /* Картинки занимают всю ширину на мобильных */
+    }
+
+    .news-images {
+        flex-direction: column; /* Картинки одна под другой */
+        gap: 10px;
+    }
 }
