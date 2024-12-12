@@ -76,3 +76,67 @@ a {
     outline: none;
     margin: 5px 0;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .header-section {
+        font-size: 50px;
+    }
+
+    .biography-title h2 {
+        font-size: 40px;
+    }
+
+    .biography-content {
+        font-size: 28px;
+        padding: 30px;
+        max-width: 90%;
+    }
+
+    .biography-content h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-section {
+        font-size: 40px;
+    }
+
+    .biography-title h2 {
+        font-size: 35px;
+    }
+
+    .biography-content {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .biography-content h3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-section {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+
+    .biography-title h2 {
+        font-size: 28px;
+    }
+
+    .biography-content {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .biography-content h3 {
+        font-size: 22px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+}
