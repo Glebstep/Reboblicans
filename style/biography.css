@@ -11,8 +11,8 @@ body {
     background-color: rgba(0, 39, 104, 255);
     color: white;
     text-align: center;
-    padding: 25px 0;
-    font-size: 64px;
+    padding: 20px 0;
+    font-size: 50px;
     font-weight: bold;
     margin: 0;
 }
@@ -20,12 +20,12 @@ body {
 /* Biography Title */
 .biography-title {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .biography-title h2 {
-    font-size: 55px;
+    font-size: 45px;
     color: white;
     text-transform: uppercase;
 }
@@ -35,27 +35,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 10%;
+    padding: 30px 5%;
     background-color: rgba(190, 11, 50, 255);
 }
 
 .biography-content {
     background-color: white;
     color: rgba(0, 39, 104, 255);
-    font-size: 35px;
-    line-height: 1.8;
-    padding: 40px;
-    max-width: 70%;
+    font-size: 30px;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 85%;
     text-align: justify;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .biography-content h3 {
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 35px;
     color: rgba(0, 39, 104, 255);
 }
 
@@ -64,8 +64,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 25px;
-    padding: 1%;
+    font-size: 20px;
+    padding: 20px;
     background-color: rgba(0, 39, 104, 255);
     color: white;
 }
@@ -73,23 +73,22 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-    outline: none;
     margin: 5px 0;
 }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
     .header-section {
-        font-size: 50px;
-    }
-
-    .biography-title h2 {
         font-size: 40px;
     }
 
+    .biography-title h2 {
+        font-size: 35px;
+    }
+
     .biography-content {
-        font-size: 28px;
-        padding: 30px;
+        font-size: 25px;
+        padding: 15px;
         max-width: 90%;
     }
 
@@ -100,16 +99,17 @@ a {
 
 @media (max-width: 768px) {
     .header-section {
-        font-size: 40px;
+        font-size: 35px;
+        padding: 15px 0;
     }
 
     .biography-title h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .biography-content {
-        font-size: 24px;
-        padding: 20px;
+        font-size: 20px;
+        padding: 15px;
     }
 
     .biography-content h3 {
@@ -119,17 +119,17 @@ a {
 
 @media (max-width: 480px) {
     .header-section {
-        font-size: 30px;
-        padding: 15px 0;
+        font-size: 28px;
+        padding: 10px 0;
     }
 
     .biography-title h2 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .biography-content {
-        font-size: 20px;
-        padding: 15px;
+        font-size: 18px;
+        padding: 10px;
     }
 
     .biography-content h3 {
@@ -137,6 +137,6 @@ a {
     }
 
     .footer {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
